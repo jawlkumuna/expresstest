@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    container_name: expressjs-test
+    stdin_open: true
+    tty: true 
+    image: gvgodfrey/expressjs:latest
+    ports:
+      - 8000:8000

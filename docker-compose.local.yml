@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:
+    container_name: expressjs-test
+    stdin_open: true
+    tty: true 
+    build: 
+      context: .
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - 8000:8000

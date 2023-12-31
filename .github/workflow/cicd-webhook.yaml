@@ -3,7 +3,7 @@ name: Continuous Integration-Continuous Deployment webhook
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
